@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta author="Ayleen - Andres" description="Pagina Web">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="./IMG/2622693.png" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="sweetalert2.all.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"crossorigin="anonymous"/>
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/d607a1eba4.js" crossorigin="anonymous"></script>    <title>Lenguajes de Programación</title>
+  </head>
+  <body>
+
+    <header class="encabezado">
+      <!--     Inicio del navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><span class="sr-only">(current)</span></a
+              >
+            </li>
+            
+            <div class= "npoitems" >
+                <li>
+                    <a class="navbar-brand" href="https://www.siesa.com/">
+                        <img src="IMG/hacker.png" width="40" height="40" alt="">
+                      </a>
+    
+                </li>
+            <li >
+              <a class="nav-link" href="frontend.html">Frontend</a>
+            </li>
+            <li >
+              <a class="nav-link" href="backend.html">Backend</a>
+            </li>
+            <li >
+              <a class="nav-link" href="bd.html">Bases de Datos</a>
+            </li>
+           
+        </div>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <!-- fin del navbar-->
+    </header>
+    <!--Inicio de pagina-->
+    <main>
+      <div class="cuerpo">
+      </div>
+      <hr>
+      <div class="banner">
+        <h1 class="titulo">Lenguajes de Programacion</h1>
+        <p class="caja" >En informática, se conoce como lenguaje de programación a un programa destinado a la construcción de otros programas informáticos. Su nombre se debe a que comprende un lenguaje formal que está diseñado para organizar algoritmos y procesos lógicos que serán luego llevados a cabo por un ordenador o sistema informático, permitiendo controlar así su comportamiento físico, lógico y su comunicación con el usuario humano.
+            Dicho lenguaje está compuesto por símbolos y reglas sintácticas y semánticas, expresadas en forma de instrucciones y relaciones lógicas, mediante las cuales se construye el código fuente de una aplicación o pieza de software determinado. Así, puede llamarse también lenguaje de programación al resultado final de estos procesos creativos.
+            La implementación de lenguajes de programación permite el trabajo conjunto y coordinado, a través de un conjunto afín y finito de instrucciones posibles, de diversos programadores o arquitectos de software, para lo cual estos lenguajes imitan, al menos formalmente, la lógica de los lenguajes humanos o naturales.
+        </p>
+    </div>
+    
+    <div class="container2">
+        <h2 class="titulo" >Lenguajes de Programacion mas usados</h2>
+        <p>Veamos cuales son los 10 lenguajes de programación más usados en la actualidad:</p>
+            
+        </div>
+        <ol>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>C++</li>
+
+        </ol>
+        <div class="tablas">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Lenguaje</th>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Tipado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Javascript</th>
+                    <td>Alto</td>
+                    <td>Debil</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Python</th>
+                    <td>Alto</td>
+                    <td>Fuerte</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Java</th>
+                    <td>Alto</td>
+                    <td>Fuerte</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="select">
+            <h3 class="titulo">Elige en lenguaje que mas te gusta</h3>
+            <div class="form-group" >
+                <select class="form-control" id="exampleFormControlSelect1" onchange="seleccionarLenguaje();">
+                  <option selected>Elige una opcion</option>
+                  <option value="Python">Python</option>
+                  <option value="Javascript">Javascript</option>
+                  <option value="Java">Java</option>
+                </select>
+            </div>
+        </div>
+        
+        <div>
+          <p id="alertas"></p>
+        </div>
+    </div>
+  
+    </main>
+
+    <footer class="footer py-2 text-xs-center">
+        <div class="container">
+            <label> <a href="#"><i class="fa-brands fa-instagram"></i> </a></label>
+            <label> <a href="#"><i class="fa-brands fa-github"></i></a></label>
+            <label> <a href="#"><i class="fa-brands fa-google"></i></a></label>
+            <label> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></label>
+          <p>2022 © Ayleen Orjuela - Andres Montiel Todos los derechos reservados</p>
+        </div>
+      </footer>
+    
+  </body>
+  <script src="./JS/main.js"></script>
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
+</html>

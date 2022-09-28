@@ -1,0 +1,156 @@
+
+.cuerpo{
+
+height: 700px;
+background-size:cover;
+background-repeat: no-repeat;
+background-image: url(/IMG/1_paPkmhDhXifPg-64om52og.jpeg); 
+opacity: .7;
+margin-bottom: -18px;
+
+}
+
+h1{
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.container2 h2{
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.banner{
+   margin-top: 50px;
+}
+
+.container2 p {
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 10px;
+margin-left: 15px;
+font-size: 20px;
+}
+
+li{
+   font-size: 20px;
+   
+}
+
+.tablas{
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 10px;
+margin-left: 15px;
+}
+
+.select{
+margin-top: 20px;
+margin-right: 15px;
+margin-bottom: 30px;
+margin-left: 15px
+}
+
+.select h3{
+   text-align: center;
+}
+
+#exampleFormControlSelect1{
+   width: 400px;
+   margin: 0 auto;
+}
+
+.container a{
+   color: #FFFFFF; 
+   width: 100%;
+   display: block;
+   }
+
+.container p{
+     margin-top: 5px;
+     margin-bottom: 10px;
+      }
+
+
+
+.container label i{
+      font-size: 30px;
+      padding: 0 10px;
+  }
+
+.footer{
+   background: #9f9ea4;
+   color: white; 
+   height: 14vh;
+   text-align:center;
+
+}
+
+
+.social{
+   width: 100%;
+   font-size: 25px;
+
+}
+
+.copr{
+   width: 100%;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.npoitems{
+ 
+    width: 1000px;
+
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.correcion{
+    text-decoration: none;
+color: rgba(0,0,0,.5);
+padding-right: 150px;
+
+    background-color: transparent;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+.caja{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 18px; 
+font-weight: 400; 
+text-align: center; 
+background: #889ccf; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;}
+
+.titulo{
+
+    text-align: center; 
+        font-family: Arial; 
+        font-size: 30px; 
+        color: rgba(0,0,0,.5); 
+        text-shadow: 0px 0px 9px #508AD3;
+        
+
+}
+
+.form-group{
+   margin-top: 25px;
+}
+
+
+
+
+
